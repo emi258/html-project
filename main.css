@@ -1,0 +1,54 @@
+body {
+    background-color: #f1ebeb;
+    color: #1a1818;
+}
+
+.topnav {
+    border: 1px solid white;
+}
+
+.footer {
+    position: fixed;
+    left: 10px;
+    bottom: 20px;
+    width: 100%;
+    text-align: left;
+  }
+
+a {
+    color: teal;
+}
+
+a:visited {
+    color: rgb(99, 99, 99);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px 200px;
+    grid-gap: 1em;
+}
+
+.grid__item {
+    width: 50%;
+    height: 100%;
+    background: skyblue;
+}
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
